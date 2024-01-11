@@ -144,45 +144,6 @@ export default function ColorPicker({ onChange }: ColorPickerProps) {
             />
           </div>
         </div>
-
-        {/*<div className="group">*/}
-        {/*  <div>*/}
-        {/*    <label htmlFor="r">R</label>*/}
-        {/*    <input*/}
-        {/*      id="r"*/}
-        {/*      className="rgb"*/}
-        {/*      placeholder="R"*/}
-        {/*      value={parsedColor.rgb.r}*/}
-        {/*      onChange={(event) => handleRgbChange('r', event.target.value)}*/}
-        {/*      inputMode="numeric"*/}
-        {/*      pattern="[0-9]*"*/}
-        {/*    />*/}
-        {/*  </div>*/}
-        {/*  <div>*/}
-        {/*    <label htmlFor="g">G</label>*/}
-        {/*    <input*/}
-        {/*      id="g"*/}
-        {/*      className="rgb"*/}
-        {/*      placeholder="G"*/}
-        {/*      value={parsedColor.rgb.g}*/}
-        {/*      onChange={(event) => handleRgbChange('g', event.target.value)}*/}
-        {/*      inputMode="numeric"*/}
-        {/*      pattern="[0-9]*"*/}
-        {/*    />*/}
-        {/*  </div>*/}
-        {/*  <div>*/}
-        {/*    <label htmlFor="b">B</label>*/}
-        {/*    <input*/}
-        {/*      id="b"*/}
-        {/*      className="rgb"*/}
-        {/*      placeholder="B"*/}
-        {/*      value={parsedColor.rgb.b}*/}
-        {/*      onChange={(event) => handleRgbChange('b', event.target.value)}*/}
-        {/*      inputMode="numeric"*/}
-        {/*      pattern="[0-9]*"*/}
-        {/*    />*/}
-        {/*  </div>*/}
-        {/*</div>*/}
       </div>
     </div>
   );
